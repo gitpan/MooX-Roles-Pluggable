@@ -1,0 +1,50 @@
+{
+   "abstract" : "Moo eXtension for pluggable roles",
+   "author" : [
+      "Jens Rehsack <rehsack@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132661",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MooX-Roles-Pluggable",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.90"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Module::Pluggable" : "4.8",
+            "Moo::Role" : "1.003000"
+         }
+      }
+   },
+   "provides" : {
+      "MooX::Roles::Pluggable" : {
+         "file" : "lib/MooX/Roles/Pluggable.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "https://github.com/rehsack/MooX-Roles-Pluggable"
+      }
+   },
+   "version" : "0.001"
+}
