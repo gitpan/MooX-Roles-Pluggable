@@ -13,14 +13,17 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: MooX-Roles-Pluggable
+no_index:
+  directory:
+    - t/inc
 provides:
   MooX::Roles::Pluggable:
     file: lib/MooX/Roles/Pluggable.pm
-    version: 0.001
+    version: 0.002
 requires:
   Module::Pluggable: 4.8
   Moo::Role: 1.003000
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/rehsack/MooX-Roles-Pluggable
-version: 0.001
+version: 0.002

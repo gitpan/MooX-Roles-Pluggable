@@ -13,6 +13,11 @@
       "version" : "2"
    },
    "name" : "MooX-Roles-Pluggable",
+   "no_index" : {
+      "directory" : [
+         "t/inc"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
@@ -34,7 +39,7 @@
    "provides" : {
       "MooX::Roles::Pluggable" : {
          "file" : "lib/MooX/Roles/Pluggable.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -46,5 +51,5 @@
          "url" : "https://github.com/rehsack/MooX-Roles-Pluggable"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }

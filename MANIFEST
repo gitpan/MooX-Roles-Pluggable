@@ -3,10 +3,11 @@ Changes
 lib/MooX/Roles/Pluggable.pm
 MANIFEST
 MANIFEST.SKIP
+META.json
+META.yml
 README
 t/00-load.t
 t/01-basic.t
+t/02-fatal.t
 t/inc/MyTest/Role/Bar.pm
 t/inc/MyTest/Role/Foo.pm
-META.yml
-META.json
